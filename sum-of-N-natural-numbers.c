@@ -12,7 +12,10 @@ int main()
 	scanf("%d", &N);
 	printf("Sum of %d iS :", N);
 	for (i = 1; i <= N; i++)
+	{
 		sum += i;
-	printf("%d\n", sum);
+		printf("%d\n", sum); /* It gives the total value step by step*/
+	}
+	printf("%d\n", sum); /* It gives the total value without displaying steps*/
 	return 0;
 }
